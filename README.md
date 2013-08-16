@@ -4,9 +4,14 @@ gitmug
 Downloads Github user's avatar
 
 NAME
-    github - downloads a github users avatar
+
+    gitmug - downloads a github users avatar
+    
 SYNOPSIS
-    github [GITHUB USER] [OPTIONAL IMAGE PIXELS]
+
+    gitmug [GITHUB USER] [OPTIONAL IMAGE PIXELS]
+    
 EXAMPLE
-    github murtnowski
-    github murtnowski 200
+
+    gitmug murtnowski
+    gitmug murtnowski 200
