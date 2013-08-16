@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 content=$(wget https://api.github.com/users/$1 --no-check-certificate -q -O -| grep -o "gravatar_id.*"|cut -c 16-47)
 if [ "$content" == "" ]; then
 echo 'Github user not found'
